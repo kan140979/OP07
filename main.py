@@ -8,7 +8,6 @@ from tkinter import messagebox
 root = tk.Tk()
 root.title("Первый проект")
 
-
 def on_button_click():
     messagebox.showinfo("Приветствие", f"Привет, {entry.get()}!")
     #label.config(text=f"Привет, {entry.get()}!")
